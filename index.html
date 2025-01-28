@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to destroyerr1558 bio website</title>
+    <script>
+        const titles = [
+            "My",
+            "best",
+            "duo",
+            "is",
+            "vixyum!"
+        ];
+
+        let titleIndex = 0;
+        
+        function changeTitle() {
+            document.title = titles[titleIndex];
+            titleIndex = (titleIndex + 1) % titles.length;
+        }
+
+        setInterval(changeTitle, 1000);
+    </script>    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <style>
+
+.animated-title{font-size:24px;font-weight:bold;white-space:nowrap;overflow:hidden;width:0;animation:slideTitle 10s linear infinite;display:inline-block}@keyframes slideTitle{0%{width:0}25%{width:100%}50%{width:100%}75%{width:100%}100%{width:0}}*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif}body{background:linear-gradient(45deg,#1a0024,#2d0047);min-height:100vh;display:flex;justify-content:center;align-items:center;color:white;overflow:hidden;cursor:none}.main-content{width:100%;max-width:800px;padding:2rem;position:relative}.profile-card{background:rgba(20,20,35,0.8);backdrop-filter:blur(20px);border-radius:15px;padding:0;transform-style:preserve-3d;transform:perspective(1000px);box-shadow:0 8px 32px 0 rgba(31,38,135,0.37);border:1px solid rgba(255,255,255,0.1);overflow:hidden;position:relative}.banner{width:100%;height:200px;background:url('https://media.discordapp.net/attachments/1309223742618210336/1333846398520528926/Bir_baslk_ekleyin_2.png?ex=679a60c3&is=67990f43&hm=01526049f5a25cc1b4298e995bc2f58541a0e9908e6bcdaa274c7eb45038d031&=&format=webp&quality=lossless') center/cover;background-color:#2d0047;position:relative;overflow:hidden}.banner::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(circle at center,rgba(128,0,255,0.3),transparent)}.content-wrapper{padding:2rem;position:relative}.profile-pic{width:120px;height:120px;border-radius:50%;border:4px solid rgba(20,20,35,0.8);box-shadow:0 4px 20px rgba(0,0,0,0.3);margin-top:-60px;position:relative;z-index:2;background:url('https://media.discordapp.net/attachments/1135659934567112888/1333835162290753566/Destroyerr_Profile.png?ex=679a564c&is=679904cc&hm=182c4a5c55f8d575a7e22583c4f7e5d33c083b11bcf024f4622c8e941a76f52a&=&format=webp&quality=lossless') center/cover}.profile-pic1{width:70px;height:70px;border-radius:70%;margin-top:-10px;position:relative;z-index:3;background:url('https://media.discordapp.net/attachments/1135659934567112888/1333835162290753566/Destroyerr_Profile.png?ex=679a564c&is=679904cc&hm=182c4a5c55f8d575a7e22583c4f7e5d33c083b11bcf024f4622c8e941a76f52a&=&format=webp&quality=lossless') center/cover}.username{font-size:2.5rem;margin:1rem 0;color:white;text-shadow:0 0 10px rgba(255,255,255,0.8),0 0 20px rgba(255,255,255,0.8),0 0 30px rgba(255,255,255,0.8);font-weight:bold}.tags{display:flex;gap:.8rem;flex-wrap:wrap;margin:1rem 0}.tag{background:rgba(255,0,0,0.1);padding:.5rem 1rem;border-radius:20px;border:1px solid rgba(255,0,0,0.3);font-size:.9rem;color:red}.desc{margin:1rem 0;color:rgba(255,255,255,0.8);display:flex;align-items:center;gap:.5rem}.social-links{display:flex;gap:1rem;margin-top:1rem}.social-links a{color:red;text-decoration:none;font-size:1.5rem;transition:.3s}.social-links a:hover{transform:translateY(-2px);color:#f33}.mouse-follower{width:300px;height:300px;background:radial-gradient(circle at center,rgba(128,0,255,0.2),transparent);position:fixed;pointer-events:none;transition:.1s;z-index:1}.discord-profile{background:rgba(20,20,35,0.9);padding:1rem;border-radius:8px;margin-top:1rem;display:flex;align-items:center;gap:55px}.profile-button{background:rgba(255,255,255,0.1);border:0;color:white;padding:.5rem 1rem;border-radius:4px;cursor:pointer;transition:.3s}.profile-button:hover{background:rgba(255,255,255,0.2)}
+    </style>
+</head>
+<body>
+    <div class="mouse-follower" id="mouseFollower"></div>
+    
+    <div class="main-content">
+        <div class="profile-card" data-tilt data-tilt-max="5">
+            <div class="banner"></div>
+            <div class="content-wrapper">
+                <div class="profile-pic"></div>
+                <h1 class="username" style="background-image:url(https://r2.fakecrime.bio/assets/sparkles/red.gif);width:fit-content">destroyerr1558</h1>
+                
+                <div class="tags">
+                    <span class="tag">Backend Developer (PY,PHP)</span>
+                    <span class="tag">Frontend Developer (HTML,CSS,JS)</span>
+                    <span class="tag">CTF Racer</span>
+                    <span class="tag">Malware Analysis</span>
+                    <span class="tag">Ethical Web Pentester</span>
+                </div>
+
+                <div class="desc">
+                    Welcome to destroyerr1558 bio website! | Duo: vixyum
+                </div>
+
+
+
+    <script>
+const mouseFollower=document.getElementById("mouseFollower");document.addEventListener("mousemove",e=>{mouseFollower.style.left=e.clientX-150+"px";mouseFollower.style.top=e.clientY-150+"px"});VanillaTilt.init(document.querySelector(".profile-card"),{max:5,speed:400,glare:true,"max-glare":.2});
+    </script>
+</body>
+</html>
